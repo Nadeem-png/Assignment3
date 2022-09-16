@@ -48,12 +48,16 @@ const rows = [
   { id: 7, Name: 'Ferrara', age: 44 ,city:'USA'},
   { id: 8, Name: 'Rossini', age: 36 ,city:'Dehli'},
   { id: 9, Name: 'Harvey', age: 65 ,city:'FSd' },
+  { id: 10, Name: 'Fahad', age: 20 ,city:'Dubia' },
+  { id: 11, Name: 'Naveed', age: 21 ,city:'Mumbia' },
+  { id: 12, Name: 'Nadeem', age: 24 ,city:'' },
+  { id: 13, Name: 'Muskan', age: 30 ,city:'FSd' },
 ];
 
 export default function DataGridDemo() {
   return (
     <Box sx={{ height: 400, width: '100%' }}>
-        <Typography variant="h2" gutterBottom >
+        <Typography variant="h2" gutterBottom style={{textAlign: "center" ,marginTop:"10px", color:"red"}}>
         User Table
       </Typography>
       <DataGrid
